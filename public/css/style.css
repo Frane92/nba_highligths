@@ -4,9 +4,7 @@ body {
     padding: 0;
     font-family: 'Roboto';
     color: #1b1b1b;
-
 }
-
 .flexbox-container {
     display: -ms-flex;
     display: -webkit-flex;
@@ -26,7 +24,6 @@ h4 {
     font-size: 20px;
     margin: 15px 0 5px;
 }
-
 header {
     border-bottom: 1px solid #e2e2e2;
 }
@@ -41,7 +38,6 @@ footer .logo {
     flex-grow: 1;
     height: 22px;
 }
-
 header .logo span,
 footer .logo span {
     background: url('/images/logo.png') no-repeat;
@@ -53,7 +49,6 @@ footer {
     background: #1f1f11;
     margin-top: 30px;
 }
-
 .item-slider {
     height: 700px;
     background-size: cover  !important;
@@ -61,7 +56,6 @@ footer {
     position: relative;
     font-family: 'Fjalla One';
 }
-
 .item-slider .caption {
     color:white;
     position: absolute;
@@ -70,27 +64,19 @@ footer {
     text-align: right;
     width: 320px;
     text-transform: uppercase;
-
 }
-
 .item-slider .caption h4 {
     font-weight: 300px;
     margin: 0;
-
 }
-
 .item-slider .caption p{
     font-size: 70px;
     margin-top: 0px;
-
 }
-
 .subscribe_panel {
     text-align: center;
     width: 350px;
     margin: 0 auto;
-
-
 }
 .subscribe_panel h3 {
     font-family: 'Fjalla One';
@@ -105,7 +91,6 @@ footer {
     font-size: 25px;
     padding: 10px;
     margin: 10px 0;
-
 }
 .subscribe_panel input :focus {
     outline-width: 0
@@ -114,73 +99,56 @@ footer {
     font-size: 10px;
     line-height: 0px;
 }
-
-
 .subscribe_panel .error {
     display: none;
     color:#f44336;
 }
-
 .subscribe_panel .success {
     display: none;
     color:#4caf50;
 }
-
 .subscribe_panel .error.show,
 .subscribe_panel .success.show {
     display: block;
-
 }
-
 .home_block {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
 }
-
 .home_block .item {
     flex-grow: 1;
     position: relative;
     height: 270px;
     overflow: hidden;
 }
-
 .home_block .item.lg  {
     width:50%;
 }
-
 .home_block .item.md  {
     width:30%;
 }
-
 .home_block .item.sm  {
     width:20%;
 }
-
 .home_block .item .image{
     height: 270px;
     background-size: cover !important;
     background-position: center center !important;
 }
-
 .home_block .item .title {
     background: black;
     padding: 10px;
     transition: all 500ms ease-in-out;
 }
-
 .home_block .item:hover .title {
     transform: translate(0px, -39px);
     transition: all 500ms ease-in-out;
 }
-
 .home_block .item .title a {
     color:#fff;
 }
-
-
-
 .home_block .item.lg {
   -webkit-animation-delay: 200ms;
 }
@@ -190,7 +158,6 @@ footer {
 .home_block .item.sm {
   -webkit-animation-delay: 800ms;
 }
-
 .home_block .item .veil {
     background: #000000;
     opacity:0.7;
@@ -199,18 +166,15 @@ footer {
     top: 0;
     position: absolute;
     transition: all 500ms ease-in-out;
-
 }
 .home_block .item:hover .veil {
     opacity:0;
     transition: all 500ms ease-in-out;
 }
-
 .home_poll {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-
 }
 .poll_container {
     display: -ms-flex;
@@ -220,7 +184,6 @@ footer {
 .poll_container .poll_item {
     padding: 20px;
     flex-grow: 1;
-
 }
 .poll_container .poll_item img {
     width: 80%;
@@ -229,7 +192,6 @@ footer {
     font-family: 'Fjalla One', sans-serif;
     font-size: 18px;
 }
-
 .fade-appear {
     opacity: 0.01;
 }
@@ -251,7 +213,6 @@ footer {
     opacity: 1;
     transition: opacity.5s ease-in; 
 }
--
 .teams_component {
     min-height: 800px;
 }
@@ -259,7 +220,6 @@ footer {
     text-align: center;
     padding: 20px 0px;
     background: #e6e6e6;
-
 }
 .teams_input input {
     font-family: 'Roboto';
@@ -287,39 +247,30 @@ footer {
 .teams_container .team_item img {
     width: 100%;  
 }
-
 .team_data_wrapper {
     display: flex; 
 }
-
 .team_data_wrapper .left {
     box-sizing: border-box;
     padding:10px 20px;
 }
-
 .team_data_wrapper .right {
     flex-grow: 1;
     box-sizing: border-box;
     border-left: 1px solid #b9b9b9;
     padding: 0px 20px;
 }
-
 .team_data_wrapper .left img {
     width: 150px;
 }
-
-
 .team_data_wrapper h1{
     color: #6d6d6d;
 }
-
-
 .team_data_wrapper .squad {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .team_data_wrapper .squad .item {
     position: relative;
     width: 25%;
@@ -327,14 +278,10 @@ footer {
     padding: 20px;
     box-sizing: border-box;
 }
-
-
 .team_data_wrapper .squad h4 {
     text-align: center;
     color: #006bb6;
 }
-
-
 .team_data_wrapper .squad .item img {
     width: 40%;
     display: block;
